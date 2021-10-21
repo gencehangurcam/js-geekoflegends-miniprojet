@@ -11,9 +11,11 @@ export class Warrior extends Heroes{
     super(name, health, attack)    
     this.rage = rage
     }
-    attack(){
+    Attack(boss){
+        boss.health - (this.attack) == boss.health
+
     }
-    defense(){
+    Defense(){
     }
 }
 
@@ -22,10 +24,9 @@ export class Mage extends Heroes{
     super(name, health, attack)    
     this.mana = mana
     }
-    attack(){
+    Attack(){
     }
-    defense(){
-     
+    Defense(){
     }
 }
 
@@ -34,8 +35,16 @@ export class Archer extends Heroes{
     super(name, health, attack)    
     this.nbrFleche = nbrFleche
     }
-    attack(){
+    Attack(boss){
+        boss.health - (this.attack * 1.4) == boss.health
+        this.health * 0.75 == this.health
+        this.nbrFleche - 2 == this.nbrFleche
+        this.nbrFleche +1 == this.nbrFleche
+        if (nbrFleche >= 0) {
+            this.attack()
+            console.log('passer un tour');
+        }
     }
-    defense(){ 
+    Defense(){ 
     }
 }

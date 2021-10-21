@@ -85,6 +85,8 @@ Avec les propriétés et actions suivantes :
 ​
   #### Attaque
   >* Augmente de deux cinquième ( * 1.4 ) ses dégats d'attaque mais diminue d'un quart ses points de vie ( * 0.75 )
+
+  attack * 1.4
 ​
 ​
 ## A Savoir en général : 

@@ -4,4 +4,7 @@ export class Boss{
     this.health = health
     this.attack = attack
     }
+    attack(){
+        Math.floor(Math.random() * Heroes)
+    }
 }
