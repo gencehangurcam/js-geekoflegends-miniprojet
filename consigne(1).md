@@ -18,7 +18,7 @@ J'ai un objet dont le nom est "Casar" dans la console je ferais apparaitre : "Ca
 >* Un nombre de points d'attaque.
 ​
 #### A Savoir sur les boss :
->* une fois le boss à 20% de ses points de vie, il posera à tes personnages (l'utilisateur) une énigme (choisie aléatoirement entre minimum 3 énigmes) à laquelle ils devront répondre en 3 essais au maximum, s'ils échouent, ils mourront, sinon ils vaincront le boss.
+ 3 essais au maximum, s'ils échouent, ils mourront, sinon ils vaincront le boss.
 ​
 ​
 #### Exemples d'énigmes traditionnelles :
