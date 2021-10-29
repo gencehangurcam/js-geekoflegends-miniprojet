@@ -5,7 +5,7 @@ export class Warrior extends Heroes{
         super(nom, health, power)
         this.rage= rage;
     }
-    Attack(){
+    Attack(bosses){
         bosses.health - (this.attack) == bosses.health
     }
     Defense(){

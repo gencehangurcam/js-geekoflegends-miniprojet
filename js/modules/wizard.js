@@ -5,7 +5,7 @@ export class Wizard extends Heroes{
         super(nom, health, attack)
         this.mana = mana;
     }
-    Attack(){
+    Attack(bosses){
         bosses.health - (this.attack) == bosses.health
     }
     Defense(){

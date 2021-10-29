@@ -1,5 +1,3 @@
-import prompt from 'prompt';
-
 export class Boss {
     constructor(nom, health, power){
         this.name = nom
